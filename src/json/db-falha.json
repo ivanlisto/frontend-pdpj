@@ -1,0 +1,19 @@
+{
+    "cabecalho": {
+        "protocolo": "66f41e3a-63d0-4852-a1b6-871b6",
+        "nomeCliente": "Tribunal de Justiça do Distrito Federal",
+        "urlRetorno": "http://mockbin.org/request",
+        "tipoParametro": "CPF",
+        "parametro": "01836522746",
+        "tipoDossie": "PREVIDENCIARIO",
+        "dataSolicitacao": "2021-12-01T11:44:46",
+        "status": "PROCESSANDO_COM_FALHA"
+    },
+    "processamentoTO": {
+        "consultasRealizadas": 5,
+        "tempoProcessamento": 8385,
+        "volumeRetorno": 847682
+    },
+    "dossieMedico": null,
+    "dossieMedicoPDF": null
+}

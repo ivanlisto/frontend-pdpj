@@ -1,0 +1,8 @@
+{
+  "name": "local",
+  "production": false,
+  "api": {
+  },
+  "authentication": {
+  }
+}

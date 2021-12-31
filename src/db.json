@@ -1,0 +1,1044 @@
+{
+    "cabecalho": {
+        "protocolo": "b122edd9-12b4-4bb5-a180-c7bad",
+        "nomeCliente": "string",
+        "urlRetorno": "string",
+        "tipoParametro": "CPF",
+        "parametro": "11077466714",
+        "tipoDossie": "MEDICO",
+        "dataSolicitacao": "2021-11-01T11:48:50",
+        "status": "ENVIADO"
+    },
+    "processamentoTO": {
+        "consultasRealizadas": 1,
+        "tempoProcessamento": 198107,
+        "volumeRetorno": 46957
+    },
+    "dossieMedico": {
+        "laudos": {
+            "listaLaudoSABITO": [{
+                    "dtRealizExame": 1095908400000,
+                    "cdRequerimento": 53274753,
+                    "cdBeneficio": 5132070929,
+                    "cdLaudo": 1,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F32 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "refere que desde o dia 180804 nao trabalha pois se sente nervoso .irritado e com dores pelo corpo  e tudo lhe irrita e aborrece e apresenta DMA e recitas",
+                    "dsExameFisico": "lucido, ansioso, bom estado geral e cooperante",
+                    "dsConsideracoes": "incapaz",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1092798000000,
+                    "dtInicioIncapacidadeDII": 1092798000000,
+                    "dtCessacaoBeneficio": 1096254000000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Carlos Alberto Francisco de Assis",
+                        "nuCRM": "133050",
+                        "nuMatInss": 920596
+                    },
+                    "origemCadastro": 0
+                },
+                {
+                    "dtRealizExame": 1326765600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 2,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO.",
+                    "dsExameFisico": "LOTE, HIPOCORADO +/4+, EUPNEICO E EM BOM ESTADO GERAL.\r\nDEAMBULA COM LENTIDÃO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.",
+                    "dsConsideracoes": "SEGURADO EM POS OPERATORIO DE PAF ABDOMINAL. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1330484400000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "SIM",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1329357600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 3,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO. \r\nPP EM 16/02/2012, SEGURADO RELATA DORES NA BARRIGA. HISTORIA DE CIRURGIA ABDOMINAL POR PAF EM 2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 15/02/2012, RELATA NO MOMENTO O PACIENTE APRESENTA DISTENSÃO ABDOMINAL NO LOCAL DA CIRURGIA, DORES ABDOMINAIS EM REGIÃO EPIGASTRICA, MESOGASTRICA E HIPOGASTRICA DEVIDO A CIRURGIA. IRA REALIZAR TC DE ABDOME NO DIA 27/02/2012.",
+                    "dsExameFisico": "LOTE, CORADO, EUPNEICO E EM BOM ESTADO GERAL.\r\nAINDA DEAMBULA COM CERTA LENTIDÃO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.\r\nREFERE DOR DIFUSA A PALPAÇÃO PROFUNDA DA REGIÃO ABDOMINAL.\r\nABDOME FLACIDO.",
+                    "dsConsideracoes": "SEGURADO EM POS OPERATORIO DE PAF EM 12/2011, AINDA COM ALTERAÇÕES ABDOMINAIS AO EXAME FISICO. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1333162800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1334286000000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 4,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO. \r\nPP EM 16/02/2012, SEGURADO RELATA DORES NA BARRIGA. HISTORIA DE CIRURGIA ABDOMINAL POR PAF EM 2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 15/02/2012, RELATA NO MOMENTO O PACIENTE APRESENTA DISTENSÃO ABDOMINAL NO LOCAL DA CIRURGIA, DORES ABDOMINAIS EM REGIÃO EPIGASTRICA, MESOGASTRICA E HIPOGASTRICA DEVIDO A CIRURGIA. IRA REALIZAR TC DE ABDOME NO DIA 27/02/2012. \r\nPP EM 13/04/2012 RELATA AINDA SENTIR DORES ABDOMINAIS. PAF EM 12/2011 COM TRATAMENTO CIRURGICO.\r\nREFERE NOVA CIRURGIA PARA RETIRADA DE PROJETIL EM 20/03/2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 21/03/2012, RELATA PAF EM 12/11/2012...",
+                    "dsExameFisico": "SUBMETIDO A CIRURGIA NO HOSPITAL ADÃO PEREIRA NUNES, RETIRA DE PROJETIL EM 20/03/2012, COM QUADRO DE DOR ABDOMINAL DE FORTE INTENSIDADE.\r\nAO EXAME: LOTE, CORADO, EUPNEICO E EM BOM ESTADO GERAL. CICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.\r\nAINDA REFERE DOR DIFUSA A PALPAÇÃO PROFUNDA DA REGIÃO ABDOMINAL.\r\nABDOME FLACIDO.\r\nCICATRIZ CIRURGICA DE CERCA DE 3CM EM REGIÃO LOMBAR DIREITA.\r\nPA 120X80 MMHG.",
+                    "dsConsideracoes": "SEGURADO AINDA EM RECUPERAÇÃO POS PAF ABDOME. NOVA CIRURGIA EM MARÇO PARA RETIRADA DE PAF. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1338433200000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1340161200000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 5,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO. \r\nPP EM 16/02/2012, SEGURADO RELATA DORES NA BARRIGA. HISTORIA DE CIRURGIA ABDOMINAL POR PAF EM 2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 15/02/2012, RELATA NO MOMENTO O PACIENTE APRESENTA DISTENSÃO ABDOMINAL NO LOCAL DA CIRURGIA, DORES ABDOMINAIS EM REGIÃO EPIGASTRICA, MESOGASTRICA E HIPOGASTRICA DEVIDO A CIRURGIA. IRA REALIZAR TC DE ABDOME NO DIA 27/02/2012. \r\nPP EM 13/04/2012 RELATA AINDA SENTIR DORES ABDOMINAIS. PAF EM 12/2011 COM TRATAMENTO CIRURGICO.\r\nREFERE NOVA CIRURGIA PARA RETIRADA DE PROJETIL EM 20/03/2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 21/03/2012, RELATA PAF EM 12/11/2012...",
+                    "dsExameFisico": "SUBMETIDO A CIRURGIA NO HOSPITAL ADÃO PEREIRA NUNES, RETIRA DE PROJETIL EM 20/03/2012, COM QUADRO DE DOR ABDOMINAL DE FORTE INTENSIDADE.\r\nPP EM 20/06/2012, RELATA DOR ABDOMINAL E EPISODIOS DE DIARREIA. DMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 30/05/2012, RELATA DOR ABDOMINAL, HERNIA UMBILICAL. APRESENTOU PEDIDO DE RNM DE ABDOME.\r\nAO EXAME: LOTE, CORADO, EUPNEICO E EM BOM ESTADO GERAL. CICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA COM QUELOIDE.\r\nDOR A PALPAÇÃO PROFUNDA EM FID E REGIÃO PERIUMBILICAL. HERNIA UMBILICAL REDUTIVEL.\r\nABDOME FLACIDO.\r\nCICATRIZ CIRURGICA DE CERCA DE 3CM EM REGIÃO LOMBAR DIREITA.\r\nPA 130X80 MMHG.",
+                    "dsConsideracoes": "SEGURADO COM DOR A PALPAÇÃO PROFUNDA EM FID E REGIÃO PERIUMBILICAL. AGUARDANDO RNM DO ABDOME. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1343703600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1345172400000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 6,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO. \r\nPP EM 16/02/2012, SEGURADO RELATA DORES NA BARRIGA. HISTORIA DE CIRURGIA ABDOMINAL POR PAF EM 2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 15/02/2012, RELATA NO MOMENTO O PACIENTE APRESENTA DISTENSÃO ABDOMINAL NO LOCAL DA CIRURGIA, DORES ABDOMINAIS EM REGIÃO EPIGASTRICA, MESOGASTRICA E HIPOGASTRICA DEVIDO A CIRURGIA. IRA REALIZAR TC DE ABDOME NO DIA 27/02/2012. \r\nPP EM 13/04/2012 RELATA AINDA SENTIR DORES ABDOMINAIS. PAF EM 12/2011 COM TRATAMENTO CIRURGICO.\r\nREFERE NOVA CIRURGIA PARA RETIRADA DE PROJETIL EM 20/03/2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 21/03/2012, RELATA PAF EM 12/11/2012...",
+                    "dsExameFisico": "PP EM 17/08/2012 :TRAZ IMA DE 14/08/2012 INFORMANDO HERNIA INCISIONAL .ENCONTRA-SE EM PRE OPERATORIO DA HERNIA INCISIONAL QUE ESTA PREVISTA PARA O PROXIMO MES.AO EXAME FISICO ;LUCIDO ,ORIENTADO ,MARCHA E POSTURA ATIPICAS .APRESENTA CICATRIZ CIRURGICA EM REGIAO MEDIANA COM  PRESENÇA DE HERNIA INCISIONAL EM REGIAO UMBILICAL  ",
+                    "dsConsideracoes": "SEGURADO APRESENTANDO HERNIA INCISIONAL APOS LAPAROTOMIA EXPLORADORA DEVIDO A PAF ABDOMINAL .",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1354240800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Monica Leite de Araujo",
+                        "nuCRM": "582680",
+                        "nuMatInss": 1185529
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1355277600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 7,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,29, OPERADOR DE ESCAVADEIRA EMPREGADO DESDE 10082011 BI ANT DE 31122011 A 12122012 POR CID T 01 I INDEF EM 23092004 POR CID F 32.DAT 16122011.RELATO DE PAF DE ABDOME EM 11122011 E TTO CIRURGICO NO HOSPITAL DE SARACURUNA IMA DO DIA 11122012 DO DR TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE POS OPERATORIO DE HERNIORRAFIA UMBILICAL INCISIONAL EM 19092012 ( SIC) QUEIXA-SE DE DOR LOCAL SEM MEDICAÇÃO",
+                    "dsExameFisico": "LOTE NORMOCORADO REGULAR ESTADO GERAL CICATRIZ CIRURGICA LONGITUDINAL ABDOMINAL DE + OU - 20 CM CICATRIZADA DISCRETA  DOR A PALPAÇÃO PROFUNDA LOCAL ",
+                    "dsConsideracoes": "REQUERENTE,29, OPERADOR DE ESCAVADEIRA EMPREGADO RELATO DE POS OPERATORIO DE HERNIORRAFIA UMBILICAL INCISIONAL EM 19092012 ASSINTOMATICO NO MOMENTO O EXAME CLINICO NÃO DEMONSTROU INCAPACIDADE LABORATIVA .",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1354240800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Christianne Maria Goyannes Gusmão Caiado",
+                        "nuCRM": "349976",
+                        "nuMatInss": 1867110
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1357869600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 8,
+                    "cdOrdem": 1,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,29, OPERADOR DE ESCAVADEIRA EMPREGADO DESDE 10082011 BI ANT DE 31122011 A 12122012 POR CID T 01 I INDEF EM 23092004 POR CID F 32.DAT 16122011.RELATO DE PAF DE ABDOME EM 11122011 E TTO CIRURGICO NO HOSPITAL DE SARACURUNA IMA DO DIA 11122012 DO DR TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE POS OPERATORIO DE HERNIORRAFIA UMBILICAL INCISIONAL EM 19092012 ( SIC) QUEIXA-SE DE DOR LOCAL SEM MEDICAÇÃO \r\nPR EM 11/01/13, SEGURADO, 29 ANOS, OPERADOR DE ESCAVADEIRA, COM HISTORIA DE PAF ABDOMINAL E NOVA CIRURGIA DE HERNIA UMBILICAL EM 19/09/12. REFERE QUE VAI OPERAR NOVA HERNIA UMBILICAL EM 06/02/13. REFERE TAMBEM TER OPERADO CISTOS CEBACEOS EM ANTEBRAÇO ESQUERDO E DIREITO. USG DE PAREDE ABDOMINAL DATADA DE 22/12/12, RELATA ALTERAÇÕES ECOGRAFICAS DETECTAVEIS NAS FIBRAS MUSCULARES EM REGIÃO PARAUMBILICAL A DIREITA, COMPATIVEL COM HERNIA. DMA DR. PEDRO B. YATUDO, CRM 5279346-9, DATADO DE 08/01/2013, RELATA HERNIA INCISIONAL EM PRE OPERATORIO. DMA DO MESMO MEDICO COM RELATO...",
+                    "dsExameFisico": ".....E CIRURGIA MARCADA PARA 06/02/2013. DMA DRA MAIEVE CORROLO, CRM 5280388-0, DATADO DE 03/01/13, RELATA CID D44. \r\nAO EXAME: LOTE, CORADO E EUPNEICO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL.\r\nHERNIA EM REGIÃO PARAUMBILICAL DIREITA A MANOBRA DE VASSALVA.\r\nCICATRIZ CIRURGICA COM PONTOS DE CERCA DE 10 CM EM REGIÃO POSTERIOR DO ANTEBRAÇO ESQUERDO.\r\nCICATRIZ CIRURGICA COM PONTOS DE CERCA DE 3 CM EM REGIÃO DISTAL DO ANTEBRAÇO DIREITO.\r\n",
+                    "dsConsideracoes": "SEGURADO OPERADOR DE ESCAVADEIRA EM POS OPERATORIO DE RETIRADA DE TUMORAÇÃO EM ANTEBRAÇO ESQUERDO E DIREITO E AGUARDANDO CIRURGIA DE HERNIOPLASTIA UMBILICAL MARCADA PARA 06/02/2013. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1365217200000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1366858800000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 9,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,29 DESTRO OPERADOR DE CARREGADEIRA EMPREGADO DESDE 10082011 BI ANT DE 31122011 A 12122012 POR CID T 01 INDEF EM 21112012 E 23092004 POR CID F 32  DAT 31122011. IMA DO DIA 12032013 DO DR  TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE  TER SIDO SUBMETIDO A HERNIORRAFIA UMBILICAL EM 22022013 . IMA DO DIA 18042013 DA DRA MAIEVE CORRALO CRM 52803880 COM RELATO DE PROCEDIMENTO CIRURGICO NO DIA 18042013 . CID C 44  RETIRADA DE  TUMORES BENIGNOS  NO ANTEBRAÇO DIREITO  QUEIXA-SE DE DOR UMBILICAL  E NO BRAÇO DIREITO  EM USO DE CEFALEXINA 500 E ARFLEX",
+                    "dsExameFisico": "LOTE NORMOCORADO BOM ESTADO GERAL ABDOMEM FLACIDO DOLOROSO A PALPAÇÃO PROFUNDA PERIUMBILICAL EDEMA LOCAL CICATRIZ CIRURGICA EM ANTEBRAÇO DIREITO  DOR E EDEMA LOCAL ",
+                    "dsConsideracoes": "REQUERENTE,29 DESTRO OPERADOR DE CARREGADEIRA EMPREGADO RELATO DE POS OPERATORIO DE  HERNIORRAFIA UMBILICAL EM 22022013 E RETIRADA DE TUMORES BENIGNOS  EM ANTEBRAÇO DIREITO EM 18042013 SINTOMATICO NO MOMENTO HA INCAPACIDADE LABORATIV A.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1368586800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Christianne Maria Goyannes Gusmão Caiado",
+                        "nuCRM": "349976",
+                        "nuMatInss": 1867110
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1369018800000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 10,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,29 DESTRO OPERADOR DE CARREGADEIRA EMPREGADO DESDE 10082011 BI ANT DE 31122011 A 12122012 POR CID T 01 INDEF EM 21112012 E 23092004 POR CID F 32  DAT 31122011. IMA DO DIA 12032013 DO DR  TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE  TER SIDO SUBMETIDO A HERNIORRAFIA UMBILICAL EM 22022013 . IMA DO DIA 18042013 DA DRA MAIEVE CORRALO CRM 52803880 COM RELATO DE PROCEDIMENTO CIRURGICO NO DIA 18042013 . CID C 44  RETIRADA DE  TUMORES BENIGNOS  NO ANTEBRAÇO DIREITO  QUEIXA-SE DE DOR UMBILICAL  E NO BRAÇO DIREITO  EM USO DE CEFALEXINA 500 E ARFLEX \r\nPP EM 20/05/2013, SEGURADA 29 ANOS, OPERADOR DE CARREGADEIRA, DAT EM 31/12/2011, TEM BI ANTERIOR RELATADO ACIME. REFERE MELHORA DO MID APOS CIRURGIA EM 18/04/2013. RELATA AGORA HERNIA UMBILICAL E CIRURGIA JA MARCADA PARA O DIA 20/05/2013. DMA DR. TARCILIO DE OLIVEIRA GIVISIEZ, CRM 5284929-4, DATADO DE 16/05/2013, EM PRE-OPERATORIO DE HERNIA INCISIONAL UMBILICAL COM PREVISÃO DE PROCEDIMENTO CIRURGICO EM 29/05/2013...........",
+                    "dsExameFisico": ".........USG DE PAREDE ABDOMINAL DATADA DE 16/05/2013, RELATA PRESENÇA DE EVAGINAÇÃO NA LINHA MEDIANA DO ABDOME PERANTE A MANOBRA DE VALSALVA. APRESENTOU EXAMES PRE-OPERATORIOS E SOLICITAÇÃO DE INTERNAÇÃO EM 29/05/2013 ASSINADA PELO MESMO MEDICO. \r\nAO EXAME: LOTE, CORADO E EUPNEICO.\r\nCICATRIZ CIRURGICA EM ANTEBRAÇO DIREITO E REGIÃO MEDIANA ABDOMINAL.\r\nHERNIA UMBILICAL VOLUMOSA E REDUTIVEL.\r\nMOBILIDADE PRESERVADA EM MSD.",
+                    "dsConsideracoes": "SEGURADO OPERADOR DE CARREGADEIRA, 29 ANOS, EM PRE-OPERATORIO DE HERNIOPLASTIA UMBILICAL, MARCADA PARA 29/05/2013 PELO PLANO DE SAUDE. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1376967600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1377140400000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 11,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "PP SDO OP DE CARREGADEIRA  EMPREGADO DESDE  08/11 REFERE  HÉRNIA UMBILICAL OPERADO .TRAZ IMA   DR PEDRO BIRATUDO CRM 52793459 CIRURGIA EM 10/07/13",
+                    "dsExameFisico": "CICATRIZ ANTIGA E HIPERTRÓFICA EM REGIÃO MEDIANA DO ABD ;OUTRA SOBREPOSTA EM REGIÃO UMBILICAL  SEM DRENAGENS OU FLOGOSE ",
+                    "dsConsideracoes": "PP SDO OP DE  CARREGADEIRA EMPREGADO QUADRO DE POS OP HERNIORRAFIA UMBILICAL COMPROVA INCAPACIDADE LABORATIVA TEMPORARIA\r\nDCB 15/09/13",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1379214000000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Denise Macedo Jana",
+                        "nuCRM": "471226",
+                        "nuMatInss": 1637911
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1380596400000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 12,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "PP SDO OP DE CARREGADEIRA  EMPREGADO DESDE  08/11 REFERE  HÉRNIA UMBILICAL OPERADO .TRAZ IMA   DR PEDRO BIRATUDO CRM 52793459 CIRURGIA EM 10/07/13  PP(01/10/13): Retorna mantendo dor e impotência funcional. Em uso de analgésico. Laudo do Dr. Tarcisio de Oliveira Givisez - CRm 5284929-4, de 10/09/13, sem cid, solicitando mais 30 dias de repouso.",
+                    "dsExameFisico": "Em bom estado geral. Abdome flácido, sem visceromegalias, com cicatriz cirúrgica mediana em bom estado e tumoração discreta em região umbilical. ",
+                    "dsConsideracoes": "Mantém incapacidade laboral.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1382151600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Alexandre Turibio da Silva",
+                        "nuCRM": "4411",
+                        "nuMatInss": 1792212
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1381892400000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 13,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,29 OPERADOR DE CARREGADEIRA EMPREGADO DESDE 10082011 BI ANT DE 12042013 A 19102013 POR CID K 42 INDEF EM 21112012 E EM 23092004 POR CID F 32 DAT 31122011  IMA DO DIA 08102013 DO DR TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE  TER SIDO SUBMETIDO A PROCEDIMENTO CIRURGICO NO DIA 10072013 DE HERNIORRAFIA UMBILICAL RECIDIVADA QUEIXA-SE DE DOR LOCAL EM USO DE DIPIRONA  EX DE USG DE PAREDE ABDOMINAL DO DIA 04102013 COM RELATO DE  PEQ ABAULAMENTO COM DISCRETA HERNIAÇÃO DO CONTEUDO ABDOMINAL SENDO IDENTIFICADA ALÇAS INTESTINAIS",
+                    "dsExameFisico": "LOTE NORMOCORADO BOM ESTADO GERAL CICATRIZ CIRURGICA  LONGITUDINAL ABDOMINAL DE + OU - 30 CM CICATRIZADA DOR A PALPAÇÃO PROFUNDA PERIUMBILICAL ",
+                    "dsConsideracoes": "REQUERENTE,29 OPERADOR DE  CARREGADEIRA EMPREGADO RELATO DE POS OPERATORIO EM 10072013 DE HERNIORRAFIA UMBILICAL RECIDIVADA , COM INDICAÇÃO DE NOVO PROCEDIMENTO CIRURGICO POR NOVA RECIDIVA SINTOMATICO NO MOMENTO HA INCAPACIDADE LABORATIVA .",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1388455200000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Christianne Maria Goyannes Gusmão Caiado",
+                        "nuCRM": "349976",
+                        "nuMatInss": 1867110
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1389232800000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 14,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "PP SDO OPERADOR DE CARREGADEIRA EMPREGADO  DESDE 08/11 BIPOR K42 NO SABI:.  MSD  -TUMORAÇÃO OPERADO EM  18/04/2013.  HERNIA UMBILICAL OPERADO EM 2012  COM RECIDIVA E NOVA CIRURGIA EM    IMA DO DIA 08102013 DO DR TARCICIO DE OLIVEIRA GIVISIEZ CRM 52849294 COM RELATO DE  TER SIDO SUBMETIDO A PROCEDIMENTO CIRURGICO NO DIA 10072013 DE HERNIORRAFIA UMBILICAL RECIDIVADA ; EX DE USG DE PAREDE ABDOMINAL DO DIA 04102013 COM RELATO DE  PEQ ABAULAMENTO COM DISCRETA HERNIAÇÃO DO CONTEUDO ABDOMINAL SENDO IDENTIFICADA ALÇAS INTESTINAIS; TRAZ IMA   DR PEDRO YATUDO CRM 52783469 17/12/13 PRE OP HÉRNIA INCISIONAL  MARCADA PARA 29/01/14 ; REFERE LAPAROTOMIA  ABDOMINAL POS PAF EM 12/11;",
+                    "dsExameFisico": "CICATRIZ  MEDIANA  TRANSUMBILICAL ANTIGA ; SEM ABAULAMENTOS  ,MESMO à VALSALVA.",
+                    "dsConsideracoes": "PP SDO OPERADOR DE CARREGADEIRA EMPREGAWDO QUADRO DE HÉRNIA INCISIONAL AGUARDA CIRURGIA COMPROVA INCAPACIDADE LABORATIVA TEMPORARIA\r\nDCB 31/03/14",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1396234800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Denise Macedo Jana",
+                        "nuCRM": "471226",
+                        "nuMatInss": 1637911
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1397185200000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 15,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,30 DESTRO OPERADOR DE CARREGADEIRA EMPREGADO DESDE 10082011 CARENCIA EM 01062009  BI ANT  DE 12042013 A 11042014 POR CID K 42 IMA DO DIA  18022014 DO DR PEDRO B YATUDO CRM 52793469 COM RELATO DE  TER SIDO SUBMETIDO A HERNIORRAFIA  INCISIONAL EM 29012014  QUEIXA-SE DE DOR UMBILICAL   EM USO DE DEOCIL RELATO DE ACIDENTE COM PAF EM DEZ DE 2011 COM CONSEQUENTE 3 CIRURGIAS PARA HERNIA INCISIONAL",
+                    "dsExameFisico": "LOTE BOM ESTADO GERAL CICATRIZ CIRURGICA DE + OU - 28 CM LONGITUDINAL ABDOMINAL  AINDA EM CICATRIZAÇÃO  PERIUMBILICAL FISTULA COM SAIDA DE SECREÇÃO AMARELADA DOR A PALPAÇÃO PROFUNDA LOCAL",
+                    "dsConsideracoes": "REQUERENTE,30, OPERADOR DE CARREGADEIRA , EMPREGADO RELATO DE POS OPERATORIO EM 29012014 DE HERNIORRAFIA INCISIONAL UMBILICAL  RELATO DE ACIDENTE COM PAF EM DEZ DE 2011 ,, OPERADO E RELATO DE QUATRO PROCEDIMENTOS CIRURGICOS PARA HERNIA INCISIONAL SINTOMATICO NO MOMENTO HA INCAPACIDADE LABORATIVA .",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1406775600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Christianne Maria Goyannes Gusmão Caiado",
+                        "nuCRM": "349976",
+                        "nuMatInss": 1867110
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1408503600000,
+                    "cdRequerimento": 148698440,
+                    "cdBeneficio": 6013832580,
+                    "cdLaudo": 16,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "K42 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,30 DESTRO OPERADOR DE CARREGADEIRA EMPREGADO DESDE 10082011 CARENCIA EM 01062009  BI ANT  DE 12042013 A 11042014 POR CID K 42 IMA DO DIA  18022014 DO DR PEDRO B YATUDO CRM 52793469 COM RELATO DE  TER SIDO SUBMETIDO A HERNIORRAFIA  INCISIONAL EM 29012014  QUEIXA-SE DE DOR UMBILICAL   EM USO DE DEOCIL RELATO DE ACIDENTE COM PAF EM DEZ DE 2011 COM CONSEQUENTE 3 CIRURGIAS PARA HERNIA INCISIONAL \r\nPP EM 20/08/2014, SEGURADO, 30 ANOS, COM HISTORIA DE HERNIA INCISIONAL ABDOMINAL E TRATAMENTO CIRURGICO EM 29/01/2014. REFERE DESCONFORTO EM REGIÃO ABDOMINAL E QUE TEVE ALTA PELO MEDICO ASSISTENTE. COMPARECE SEM LAUDO MEDICO.",
+                    "dsExameFisico": "LOTE, CORADO E EUPNEICO. BOM ESTADO GERAL. CICATRIZ CIRURGICA MEDIANA ABDOMINAL SEM SINAIS DE HERNIA INCISIONAL A MANOBRA DE VASSALVA. ABDOME FLACIDO E INDOLOR A PALPAÇÃO SUPERFICIAL E PROFUNDA.",
+                    "dsConsideracoes": "SEGURADO, 30 ANOS, OPERADOR DE CARREGADEIRA, COM TRATAMENTO EFICAZ PARA HERNIA INCISIONAL, SEM INTERCORRENCIAS NO MOMENTO. SEM INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1333249200000,
+                    "dtInicioIncapacidadeDII": 1361502000000,
+                    "dtCessacaoBeneficio": 1406775600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1564974000000,
+                    "cdRequerimento": 197796367,
+                    "cdBeneficio": 6289587718,
+                    "cdLaudo": 17,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F410",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 = 05.08.2019 = Segurado empregado como motorista de ônibus há 3 meses, diz que já foi vigilante, motorista de carro de passeio, condutor de VLT e outras. Requerimento indeferido em 2004 com alegado quadro depressivo. BI de 2011 a 2013 por T01 e 2013/2014 por K42. Hoje alega que foi diagnosticado com depressão. Diz que em 2004 teve o primeiro episódio devido à morte da mãe. À época foi tratado e diz que melhorou. Foi demitido do VLT em 2016 e piorou novamente, diz que novamente tratou, melhorou e decidiu alugar um carro para trabalhar como UBER. Ficou mais de um ano nesta atividade e distribuindo currículos, até que em maio 2019 foi chamado pela atual empresa de vínculo. No entanto teve uma crise descrita como ataque de pânico e acabou procurando atendimento novamente. Apresenta laudos de Americo de Souza CRM 52421346, em 19.07.2019 e 25.07.2019 informando CID F412 e F32, sugerindo 6 dias de afastamento em cada um deles. Laudo de Tula Chaves CRM 685755, em 29.07.2019 informando >>>>",
+                    "dsExameFisico": ">>>>os mesmos CIDs e indicando 15 dias de repouso. Por fim, apresenta encaminhamento para tratamento em serviço de psicologia, com CID F410, assinado por Fernanda Pereira CRM 521022636, em 23.07.2019. Receitas de Rivotril, Escitalopram, Diazepan. \r\n\r\n\r\nAcompanhado pela esposa, verborrágico, fala incessantemente, contando sua história desde o início, com riqueza de detalhes. Lúcido, orientado, cooperativo, ansioso, algo deprimido. Pensamento organizado, curso algo acelerado, ideação de menos valia evidente. Juízo crítico preservado.  Percepção, atenção e memórias preservadas. Controle dos impulsos dentro do padrão de normalidade. Hipopragmático.",
+                    "dsConsideracoes": "Segurado com história de episódios depressivo/ansiosos desde 2004, pelo relatado e comprovado documentalmente, apresentou agravamento recente. Cncluo pela pertinência da concessão de benefício por incapacidade no momento, para estabilização do quadro, por 60 dias.\r\nDID de acordo com BI anterior; DII na data do primeiro atestado.\r\nNão isenta carência. \r\n",
+                    "dsJustNTEP": "ACIMA",
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1082257200000,
+                    "dtInicioIncapacidadeDII": 1563505200000,
+                    "dtCessacaoBeneficio": 1570244400000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Emanuel Alexandre Santiago de Menezes",
+                        "nuCRM": "547553",
+                        "nuMatInss": 1501344
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1570071600000,
+                    "cdRequerimento": 197796367,
+                    "cdBeneficio": 6289587718,
+                    "cdLaudo": 18,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F410",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE,35, MOTORISTA DE ONIBUS, EMPREGADO DESDE 20052019, BI ANT  DE 03082019 A 05102019 CID F 410 INDEF EM 21112012 30072014  E OUTROS  DAT 19072019  IMA DE 29072019 DA DRA TULA CHAVES CRM 685755 COM RELATO DE TTO PSIQUIATRICO DE CID F 41 E F 32  QUEIXA-SE DE NERVOSISMO, TREMORES , DEPRESSÃO INSONIA  DOR DE CABEÇA  DESDE 2004 SIC EM USO DE  ESCITALOPRAN  DIAZEPAN 10 DIVALCON ER500",
+                    "dsExameFisico": " LOTE BOM ESTADO GERAL AUTOCONSCIENCIA PRESERVADA  RACIOCINIO LOGICVO E COERENTE COM BASE NA RAZÃO MEMORIA RECENTE  E REMOTA PRESERVADAS COMPORTAMENTO NORMAL  SEM OSCILAÇÕES ",
+                    "dsConsideracoes": "REQUERENTE,35, MOTORISTA DE ONIBUS,  EMPREGADO  RELATO DE TTO  PSIQUIATRICO  DE CID F 41  ASSINTOMATICO NÃO HA INCAPACIDADE LABORATIVA ATUAL",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1082257200000,
+                    "dtInicioIncapacidadeDII": 1563505200000,
+                    "dtCessacaoBeneficio": 1570071600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Christianne Maria Goyannes Gusmão Caiado",
+                        "nuCRM": "349976",
+                        "nuMatInss": 1867110
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1574042400000,
+                    "cdRequerimento": 199710381,
+                    "cdBeneficio": 6303416970,
+                    "cdLaudo": 19,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "NEO Ax1. EMPREGADO, MOTORISTA DE ONIBUS. BI RECENTE POR CIDs F41.0 E F32, ENTRE 03/08/19 E 05/10/19, CESSADO POR DECISÃO CONTRÁRIA. SEM ASO DE RETORNO. LAUDO DE 07/10/19 DA DRA TULA CHAVES, PSIQUIATRA, INFORMA CIDs F41, F32 E F31 (INTERROGADO). LAUDO DE 12/11/19 DO DR ROBSON A. PIMENTEL, PSIQUIATRA, RELATA OS MESMOS CIDs, EM ACOMPANHAMENTO DESDE 29/07/19, EM USO DE DIAZEPAM, DIVALCOM, ESCITALOPRAM E ZOLPIDEM, MANTENDO ANSIEDADE, REBAIXAMENTO DE HUMOR E DA ENERGIA. TRAZ LAUDO PSICOLOGICO DE 18/09/19.",
+                    "dsExameFisico": "LÚCIDO, ORIENTADO, BOM ASPECTO DE HIGIENE PESSOAL. EUPNEICO. SEM EDEMAS PERIFÉRICOS. HUMOR DISCRETAMENTE DEPRIMIDO E ANSIOSO. PRAGMATISMO PRESERVADO. NÃO ALUCINA, DELIRA OU MANIFESTA IDEAÇÃO DE AUTO-EXTERMÍNIO NO MOMENTO. PENSAMENTO ORGANIZADO. MEMÓRIA DE EVOCAÇÃO APARENTEMENTE PRESERVADA.",
+                    "dsConsideracoes": "AO PRESENTE EXAME PERICIAL, NÃO APRESENTA ELEMENTOS TÉCNICOS DE CONVICÇÃO QUE JUSTIFIQUEM ATUAL REABERTURA DE BENEFÍCIO. NÃO COMPROVA DESESTABILIZAÇÃO OU REAGUDIZAÇÃO INCAPACITANTES, DECORRENTES DA PATOLOGIA DE BASE, NO MOMENTO. TAMPOUCO COMPROVOU RETORNO À EMPRESA, APÓS O TÉRMINO DE SEU BI ANTERIOR.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": null,
+                    "dtInicioIncapacidadeDII": null,
+                    "dtCessacaoBeneficio": null,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Gustavo de Brito Paulon Silva",
+                        "nuCRM": "666998",
+                        "nuMatInss": 1313193
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1592967600000,
+                    "cdRequerimento": 202836434,
+                    "cdBeneficio": 6321896814,
+                    "cdLaudo": 20,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "NAO DISPONIVEL",
+                    "dsExameFisico": "NAO DISPONIVEL",
+                    "dsConsideracoes": "Laudo devido ação judicial de concessão ou de reativação.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1573524000000,
+                    "dtInicioIncapacidadeDII": 1581386400000,
+                    "dtCessacaoBeneficio": 1603249200000,
+                    "dsAcidenteTrabalho": null,
+                    "dsInvalidez": null,
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": null,
+                        "nuCRM": null,
+                        "nuMatInss": 0
+                    },
+                    "origemCadastro": 0
+                },
+                {
+                    "dtRealizExame": 1602039600000,
+                    "cdRequerimento": 202836434,
+                    "cdBeneficio": 6321896814,
+                    "cdLaudo": 21,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": " ",
+                    "dsExameFisico": " ",
+                    "dsConsideracoes": "Pedido de Manutenção - Trata-se de prorrogação automática.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1573524000000,
+                    "dtInicioIncapacidadeDII": 1581386400000,
+                    "dtCessacaoBeneficio": 1605837600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": null,
+                        "nuCRM": null,
+                        "nuMatInss": 0
+                    },
+                    "origemCadastro": 0
+                },
+                {
+                    "dtRealizExame": 1604714400000,
+                    "cdRequerimento": 202836434,
+                    "cdBeneficio": 6321896814,
+                    "cdLaudo": 22,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": " ",
+                    "dsExameFisico": " ",
+                    "dsConsideracoes": "Pedido de Manutenção - Trata-se de prorrogação automática.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1573524000000,
+                    "dtInicioIncapacidadeDII": 1581386400000,
+                    "dtCessacaoBeneficio": 1608429600000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": null,
+                        "nuCRM": null,
+                        "nuMatInss": 0
+                    },
+                    "origemCadastro": 0
+                },
+                {
+                    "dtRealizExame": 1629342000000,
+                    "cdRequerimento": 209005036,
+                    "cdBeneficio": 6354477314,
+                    "cdLaudo": 23,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE COM RELATO DE SER PORTADOR DE DOENCA SOB CID10 F41.EM 19/07/2019.",
+                    "dsExameFisico": "Parecer em Documentação Médica, em atendimento ao art. 6º da Lei nº 14.131, de 30 de março de 2021, e art. 4º da Portaria Conjunta SEPRT/ME/INSS nº 32, de 31 de março de 2021.",
+                    "dsConsideracoes": "Lei nº 14.131, de 30 de março de 2021 e Portaria Conjunta SEPRT/ME/INSS nº 32, de 31 de março de 2021.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1563505200000,
+                    "dtInicioIncapacidadeDII": null,
+                    "dtCessacaoBeneficio": null,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "IVO DE SOUZA COSTA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Luiziane Camara Cutrim",
+                        "nuCRM": "555",
+                        "nuMatInss": 1500935
+                    },
+                    "origemCadastro": 12
+                }
+            ],
+            "cabecalho": {
+                "protocolo": "b122edd9-12b4-4bb5-a180-c7bad",
+                "nomeCliente": "string",
+                "urlRetorno": "string",
+                "tipoParametro": "CPF",
+                "parametro": "12345678900",
+                "tipoDossie": "MEDICO",
+                "dataSolicitacao": "2021-11-01T11:48:50",
+                "status": "ENVIADO"
+            },
+            "processamentoTO": {
+                "consultasRealizadas": 1,
+                "tempoProcessamento": 198107,
+                "volumeRetorno": 46957
+            },
+            "dossieMedico": {
+                "laudos": {
+                    "listaLaudoSABITO": [{
+                            "dtRealizExame": 1095908400000,
+                            "cdRequerimento": 53274753,
+                            "cdBeneficio": 5132070929,
+                            "cdLaudo": 1,
+                            "cdOrdem": 0,
+                            "cdProtocolo": "F32 ",
+                            "dsProtocolo": null,
+                            "dsHistoria": "refere que desde o dia 180804 nao trabalha pois se sente nervoso .irritado e com dores pelo corpo  e tudo lhe irrita e aborrece e apresenta DMA e recitas",
+                            "dsExameFisico": "lucido, ansioso, bom estado geral e cooperante",
+                            "dsConsideracoes": "incapaz",
+                            "dsJustNTEP": null,
+                            "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                            "dtInicioDoencaDID": 1092798000000,
+                            "dtInicioIncapacidadeDII": 1092798000000,
+                            "dtCessacaoBeneficio": 1096254000000,
+                            "dsAcidenteTrabalho": "NÃO",
+                            "dsInvalidez": "NÃO",
+                            "dsIsencaoCarencia": "NÃO",
+                            "dsAuxilioAcidente": null,
+                            "dsRP": "NÃO",
+                            "requerimentoSABITO": {
+                                "requerenteSABITO": {
+                                    "nmRequerente": "TESTANDO ARQUIVO DO JSON",
+                                    "dtNascimento": 437108400000,
+                                    "sexo": "Masculino",
+                                    "nuIdentidade": "211854294",
+                                    "ocupacao": null
+                                },
+                                "beneficioSABITO": {
+                                    "dsBeneficio": "Auxílio - Doença"
+                                }
+                            },
+                            "medicoSABITO": {
+                                "nmMedico": "Carlos Alberto Francisco de Assis",
+                                "nuCRM": "133050",
+                                "nuMatInss": 920596
+                            },
+                            "origemCadastro": 0
+                        },
+                        {
+                            "dtRealizExame": 1326765600000,
+                            "cdRequerimento": 137459732,
+                            "cdBeneficio": 5495121712,
+                            "cdLaudo": 2,
+                            "cdOrdem": 0,
+                            "cdProtocolo": "T01 ",
+                            "dsProtocolo": null,
+                            "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO.",
+                            "dsExameFisico": "LOTE, HIPOCORADO +/4+, EUPNEICO E EM BOM ESTADO GERAL.\r\nDEAMBULA COM LENTIDÃO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.",
+                            "dsConsideracoes": "SEGURADO EM POS OPERATORIO DE PAF ABDOMINAL. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                            "dsJustNTEP": null,
+                            "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                            "dtInicioDoencaDID": 1323568800000,
+                            "dtInicioIncapacidadeDII": 1323568800000,
+                            "dtCessacaoBeneficio": 1330484400000,
+                            "dsAcidenteTrabalho": "NÃO",
+                            "dsInvalidez": "NÃO",
+                            "dsIsencaoCarencia": "SIM",
+                            "dsAuxilioAcidente": null,
+                            "dsRP": "NÃO",
+                            "requerimentoSABITO": {
+                                "requerenteSABITO": {
+                                    "nmRequerente": "IVO DE SOUZA COSTA",
+                                    "dtNascimento": 437108400000,
+                                    "sexo": "Masculino",
+                                    "nuIdentidade": "211854294",
+                                    "ocupacao": null
+                                },
+                                "beneficioSABITO": {
+                                    "dsBeneficio": "Auxílio - Doença"
+                                }
+                            },
+                            "medicoSABITO": {
+                                "nmMedico": "Andre Inacio Sousa da Silva",
+                                "nuCRM": "645273",
+                                "nuMatInss": 1540210
+                            },
+                            "origemCadastro": 1
+                        }
+                    ],
+                    "mensagemTO": null
+                }
+            },
+            "dossieMedicoPDF": {}
+        }
+    }
+}

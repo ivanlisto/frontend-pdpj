@@ -1,0 +1,19 @@
+{
+    "cabecalho": {
+        "protocolo": "3c5809ad-098d-4a73-a106-edb41",
+        "nomeCliente": "string",
+        "urlRetorno": "string",
+        "tipoParametro": "CPF",
+        "parametro": "83428542720",
+        "tipoDossie": "MEDICO",
+        "dataSolicitacao": "2021-10-31T15:59:39",
+        "status": "AGUARDANDO_PROCESSAMENTO"
+    },
+    "processamentoTO": {
+        "consultasRealizadas": 0,
+        "tempoProcessamento": 0,
+        "volumeRetorno": 0
+    },
+    "dossieMedico": null,
+    "dossieMedicoPDF": null
+}

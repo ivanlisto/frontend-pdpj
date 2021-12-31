@@ -1,0 +1,64 @@
+{
+  "cabecalho": {
+    "protocolo": "5d0df25e-42ed-41ed-8fb7-5d1a5",
+    "nomeCliente": "string",
+    "urlRetorno": "string",
+    "tipoParametro": "CPF",
+    "parametro": "4495937898",
+    "tipoDossie": "MEDICO",
+    "dataSolicitacao": "2021-12-07T08:17:13",
+    "status": "ENVIADO"
+  },
+  "processamentoTO": {
+    "consultasRealizadas": 1,
+    "tempoProcessamento": 1424,
+    "volumeRetorno": 1436
+  },
+  "dossieMedico": {
+    "laudos": {
+      "listaLaudoSABITO": [
+        {
+          "dtRealizExame": "2007-10-22T02:00:00.000+00:00",
+          "cdRequerimento": 77858287,
+          "cdBeneficio": 5707624151,
+          "cdLaudo": 1,
+          "cdOrdem": 0,
+          "cdProtocolo": "L24 ",
+          "dsProtocolo": null,
+          "dsHistoria": "REFERE TER ALERGIA HA 1 ANO, SIC.  APRESENTA ATESTADO MÉDICO SOLICITANDO AFASTAMENTO DE 15 DIAS SEM HIPÓTESE DIAGNÓSTICA. CASO AVALIADO EM CONJUNTO COM ESPECIALISTA, DRA SILVIA.",
+          "dsExameFisico": "APRESENTA   DESCAMAÇÃO EM MMSS, ABAIXO DO COTOVELO.",
+          "dsConsideracoes": "NÃO EXISTE INCAPACIDADE LABORATIVA",
+          "dsJustNTEP": null,
+          "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+          "dtInicioDoencaDID": null,
+          "dtInicioIncapacidadeDII": null,
+          "dtCessacaoBeneficio": null,
+          "dsAcidenteTrabalho": "NÃO",
+          "dsInvalidez": "NÃO",
+          "dsIsencaoCarencia": "NÃO",
+          "dsAuxilioAcidente": null,
+          "dsRP": "NÃO",
+          "requerimentoSABITO": {
+            "requerenteSABITO": {
+              "nmRequerente": "JOSE ADERSON DE SOUSA",
+              "dtNascimento": "1959-11-08T03:00:00.000+00:00",
+              "sexo": "Masculino",
+              "nuIdentidade": "00000000000167",
+              "ocupacao": null
+            },
+            "beneficioSABITO": {
+              "dsBeneficio": "Auxílio - Doença"
+            }
+          },
+          "medicoSABITO": {
+            "nmMedico": "Altair Rodrigues Cavenco",
+            "nuCRM": "102005",
+            "nuMatInss": 1516069
+          },
+          "origemCadastro": 1
+        }
+      ],
+      "mensagemTO": null
+    }
+  }
+}

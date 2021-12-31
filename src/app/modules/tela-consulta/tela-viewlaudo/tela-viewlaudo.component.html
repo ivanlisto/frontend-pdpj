@@ -1,0 +1,442 @@
+<div class="container-fluid" *ngIf="dossie != null">
+    <div class="row">
+        <div class="col">
+            <mat-card class="card">
+                <mat-card-subtitle class="card-header">Requerente</mat-card-subtitle>
+                <mat-card-content>
+                    <div class="requerente">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                <div class="dados_estilo">
+                                    <b>CPF:&nbsp;</b><label>{{ dossie.cabecalho.parametro }}</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                <div class="dados_estilo">
+                                    <b>Nome:&nbsp;</b>
+                                    <label>{{ dossie.dossieMedico.laudos.listaLaudoSABITO[0].requerimentoSABITO.requerenteSABITO.nmRequerente }}
+                                    &nbsp; &nbsp; <b>N° Protocolo:&nbsp;</b> {{ protocolo }}</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+     <div class="container-fluid" *ngIf="dossie.cabecalho != null">
+    <mat-card>
+        <mat-card-content>
+            <mat-tab-group class="demo-tab-group" dynamicHeight>
+                <!-- span para interacao de requerimentos -->
+                <span>
+                    <mat-tab class="teste" label="Requerimento: {{
+                            dossie.dossieMedico.laudos.listaLaudoSABITO[0].cdRequerimento
+                        }}, Data: {{
+                            dossie.dossieMedico.laudos.listaLaudoSABITO[0].dtRealizExame | date: 'dd/MM/yyyy HH:mm'
+                        }}">
+                        <div class="demo-tab-content">
+                            <mat-card class="style">
+                                <mat-card-content>
+                                    <mat-tab-group class="demo-tab-group" dynamicHeight>
+                                        <span *ngFor="let dossiemedico of dossie.dossieMedico.laudos.listaLaudoSABITO">
+                                            <mat-tab label="Laudo - {{ dossiemedico.cdLaudo }}">
+                                                <div class="tab-content">
+                                                    <!-- Colunas de forma responsível (automaticamente) -->
+                                                    <div class="row">
+                                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                            <div class="card">
+                                                                <div class="card-body">
+                                                                    <div class="card-text">
+                                                                        <div class="row">
+                                                                            <div class="col">
+                                                                                Requerimento:
+                                                                                {{
+                                                                                    dossie.dossieMedico.laudos
+                                                                                        .listaLaudoSABITO[0]
+                                                                                        .cdRequerimento
+                                                                                }}, Data:
+                                                                                {{
+                                                                                    dossie.dossieMedico.laudos
+                                                                                        .listaLaudoSABITO[0]
+                                                                                        .dtRealizExame
+                                                                                        | date: 'dd/MM/yyyy HH:mm'
+                                                                                }}"
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-3 col-sm-3 col-md-3 col-lg-3
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Requerente:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .requerenteSABITO
+                                                                                            .nmRequerente
+                                                                                    }}</span>
+</div>
+</div>
+<div class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                ">
+    <div class="dados_estilo">
+        <b>Nascimento:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .requerenteSABITO
+                                                                                            .dtNascimento
+                                                                                            | date: 'dd/MM/yyyy'
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Identidade:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .requerenteSABITO
+                                                                                            .nuIdentidade
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Sexo:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .requerenteSABITO.sexo
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>RP:&nbsp;&nbsp;</b
+                                                                                    ><span>
+                                                                                        {{
+                                                                                            dossiemedico
+                                                                                                .requerimentoSABITO
+                                                                                                .requerenteSABITO
+                                                                                                .ocupacao
+                                                                                        }}</span
+                                                                                    >
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-3 col-sm-3 col-md-3 col-lg-3
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Médico:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.medicoSABITO
+                                                                                            .nmMedico
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>CRM:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.medicoSABITO.nuCRM
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Mat. INSS:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.medicoSABITO
+                                                                                            .nuMatInss
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Origem Cadastro:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.origemCadastro
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo"><b></b></div>
+</div>
+<div class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                ">
+    <div class="dados_estilo"><b></b></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--------------------------------------->
+<div class="demo-tab-content">
+    <!-- Colunas de forma responsível (automaticamente) -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="row">
+                            <div class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                ">
+                                <div class="dados_estilo">
+                                    <b>Resultado
+                                                                                        Incapacidade:&nbsp;&nbsp;</b
+                                                                                    ><span class="destaque">{{
+                                                                                        dossiemedico.dsResultadoIncapacidade
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Benefício:&nbsp;&nbsp;</b
+                                                                                    ><span class="destaque">{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .beneficioSABITO.dsBeneficio
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Perícias:&nbsp;&nbsp;</b
+                                                                                    ><span class="destaque">
+                                                                                        sem campo vinculado</span
+                                                                                    >
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Código do
+                                                                                        Benefício:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.cdBeneficio
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Data da realização do
+                                                                                        exame:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dtCessacaoBeneficio
+                                                                                            | date: 'dd/MM/yyyy'
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Código de
+                                                                                        Protocolo:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.cdProtocolo
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Data Início Doença
+                                                                                        DID:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dtInicioDoencaDID
+                                                                                            | date: 'dd/MM/yyyy'
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Data Início Incapacidade
+                                                                                        DII:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dtInicioIncapacidadeDII
+                                                                                            | date: 'dd/MM/yyyy'
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-4 col-sm-4 col-md-4 col-lg-4
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Requerente:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.requerimentoSABITO
+                                                                                            .requerenteSABITO
+                                                                                            .nmRequerente
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <br />
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-12
+                                                                                    col-sm-12
+                                                                                    col-md-12
+                                                                                    col-lg-12
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>História:&nbsp;&nbsp;</b
+                                                                                    ><span
+                                                                                        >{{ dossiemedico.dsHistoria }}
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <br />
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-5 col-sm-5 col-md-5 col-lg-5
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Descrição Exame
+                                                                                        Físico:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dsExameFisico
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Acidente de
+                                                                                        Trabalho:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dsAcidenteTrabalho
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-3 col-sm-3 col-md-3 col-lg-3
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b>Considerações:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dsConsideracoes
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="
+                                                                                    col-xs-2 col-sm-2 col-md-2 col-lg-2
+                                                                                "
+                                                                            >
+                                                                                <div class="dados_estilo">
+                                                                                    <b
+                                                                                        >Isenção de
+                                                                                        Carência:&nbsp;&nbsp;</b
+                                                                                    ><span>{{
+                                                                                        dossiemedico.dsIsencaoCarencia
+                                                                                    }}</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <br />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </mat-tab>
+                                        </span>
+                                    </mat-tab-group>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </mat-tab>
+                </span>
+            </mat-tab-group>
+        </mat-card-content>
+    </mat-card>
+</div>

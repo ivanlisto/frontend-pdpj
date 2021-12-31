@@ -1,0 +1,86 @@
+.card {
+    height: auto;
+    padding: 0;
+    border: 1px solid #c0c0c0;
+}
+
+.card-header {
+    padding: .45rem 1.25rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgba(0, 75, 203);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.requerente {
+    padding: 20px;
+}
+
+.input_style {
+    padding: 0.4rem;
+    border: 1px solid #c0c0c0;
+    width: 200px;
+    font-size: 14px;
+}
+
+button {
+    padding: 0.17rem;
+}
+
+.example-small-box,
+.example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.example-small-box {
+    height: 100px;
+    width: 100px;
+}
+
+.example-large-box {
+    height: 300px;
+    width: 99%;
+}
+
+.style {
+    background-color: #EDF3FF;
+    border: 1px solid #c0c0c0;
+}
+
+.mat-card {
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 25px 50px rgba(8, 21, 66, 0.06) !important;
+}
+
+.mat-tab-labels {
+    display: flex;
+    background-color: #c0c0c0;
+}
+
+.mat-card-subtitle,
+.mat-card-content {
+    font-size: 1.0em;
+}
+
+.mat-list-item-content {
+    padding: 0px !important;
+}
+
+.teste1 {
+    background-color: aqua;
+}
+
+.teste2 {
+    background-color: blueviolet;
+}
+
+.mat-form-field-tam {
+    width: 260px !important;
+}

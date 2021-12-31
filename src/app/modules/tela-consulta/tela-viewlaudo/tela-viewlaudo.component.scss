@@ -1,0 +1,58 @@
+.card {
+  height: auto;
+  padding: 0 0 0em 0!important;
+  border: 1px solid #c0c0c0;
+ }
+
+.card-header {
+  padding: .45rem 1.25rem;
+  margin: 0;
+  background-color: rgba(0,75,203);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.mat-card {
+  border: 1px solid #b9b9b9 !important;
+  border-radius: 5px 5px 0 0 !important;
+}
+
+.mat-card-subtitle, .mat-card-content {
+  font-size: 0.95em;
+  border-radius: 5px 5px 0 0;
+}
+
+.mat-tab-label-container {
+  background-color: antiquewhite !important;
+}
+
+
+
+.requerente{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input_style{
+  border: 1px solid #c0c0c0;
+  width: 170px;
+  font-size: 14px;
+}
+
+.style {
+  background-color: #EDF3FF;
+  border: 1px solid #c0c0c0;
+}
+
+.dados_estilo {
+  font-weight:500 ;
+  // margin: 15px 40px 5px 40px;
+  margin: 15px 15px 5px 15px;
+  color: #727376;
+  text-align:left;
+}
+
+.destaque {
+  color: #ED3237;
+}

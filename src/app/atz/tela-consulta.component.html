@@ -1,0 +1,106 @@
+<div class="container-fluid">
+    <mat-list>
+        <mat-list-item>
+            <h3><b>SOLICITAR DOSSIÊ MÉDICO</b></h3>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <br>
+    </mat-list>
+
+    <!-- Efetuar Solicitação -->
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="card">
+                <p class="card-header">Efetuar a solicitação</p>
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="requerente">
+                                        <form class="">
+                                            <mat-form-field class="example-full-width" appearance="fill">
+                                                <mat-label>Digite o CPF</mat-label>
+                                                <input matInput placeholder="" value="" maxlength="11" type="text" name="filtro" [(ngModel)]="filtro">
+                                            </mat-form-field>&nbsp;
+                                            <button mat-raised-button color="primary" type="submit" (click)="findByCpf()">Enviar</button> &nbsp;
+                                            <mat-checkbox>Incluir PDF do Dossiê Médico na resposta</mat-checkbox>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Filtros Avançados -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="card">
+                <p class="card-header">Filtros Avançados</p>
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="requerente">
+                                        <mat-form-field appearance="fill" class="mat-form-field-tam">
+                                            <mat-label>Insira o período a ser pesquisado</mat-label>
+                                            <mat-date-range-input [rangePicker]="picker">
+                                                <input matStartDate placeholder="Data Inicial">
+                                                <input matEndDate placeholder="Data Final">
+                                            </mat-date-range-input>
+                                            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                            <mat-date-range-picker #picker></mat-date-range-picker>
+                                        </mat-form-field>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>Mostrar:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mat-checkbox>Concluídos</mat-checkbox>&nbsp;&nbsp;&nbsp;&nbsp;<mat-checkbox>recebidos</mat-checkbox></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demandas Previdenciárias - Lista -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" *ngIf="listDossie.length > 0">
+        <mat-card class="card">
+            <mat-card-subtitle class="card-header"><b>Demandas Previdenciarias</b></mat-card-subtitle>
+            <mat-card-content>
+                <div class="container">
+                    <!-- <div class="row justify-content-center"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Data_Solicitação</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <th scope="col">CPF</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <th scope="col">Nome</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <th scope="col">Protocolo</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <th scope="col">Situação</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <th scope="col">Ações</th>
+                            </tr>
+                            <hr/>
+                        </thead>
+                        <tbody>
+                            <ng-container *ngFor="let item of listDossie">
+                                <tr>
+                                    <th scope="row">{{ item.protocolo.dataSolicitacao }}</th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <td>{{ item.protocolo.parametro }}</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <td>{{ item.protocolo.tipoDossie }} </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <td>{{ item.protocolo.protocolo }}</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <td>{{ item.protocolo.statusDossie }}</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <!-- <td>Cancelar | <button (click)="gerarPDF()">PDF</button></td> -->
+                                    <!-- <button mat-button color="primary" (click)="openDialog()">Ver PDF</button> -->
+                                    <td><a [routerLink]="['/tela-viewlaudo', item.protocolo.protocolo]">Ver Dossie</a></td>
+                                </tr>
+                                <hr/>
+                            </ng-container>
+                        </tbody>
+                    </table>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

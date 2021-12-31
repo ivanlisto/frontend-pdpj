@@ -1,0 +1,187 @@
+{
+    "cabecalho": {
+        "protocolo": "b122edd9-12b4-4bb5-a180-c7bad",
+        "nomeCliente": "string",
+        "urlRetorno": "string",
+        "tipoParametro": "CPF",
+        "parametro": "12034056789",
+        "tipoDossie": "MEDICO",
+        "dataSolicitacao": "2021-11-30T20:18:10",
+        "status": "ENVIADO"
+    },
+    "processamentoTO": {
+        "consultasRealizadas": 1,
+        "tempoProcessamento": 198107,
+        "volumeRetorno": 46957
+    },
+    "dossieMedico": {
+        "laudos": {
+            "listaLaudoSABITO": [{
+                    "dtRealizExame": 1095908400000,
+                    "cdRequerimento": 53274753,
+                    "cdBeneficio": 5132070929,
+                    "cdLaudo": 1,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F32 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "refere que desde o dia 180804 nao trabalha pois se sente nervoso .irritado e com dores pelo corpo  e tudo lhe irrita e aborrece e apresenta DMA e recitas",
+                    "dsExameFisico": "lucido, ansioso, bom estado geral e cooperante",
+                    "dsConsideracoes": "incapaz",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1092798000000,
+                    "dtInicioIncapacidadeDII": 1092798000000,
+                    "dtCessacaoBeneficio": 1096254000000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "MANOEL CORDEIRO DE LIMA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Carlos Alberto Francisco de Assis",
+                        "nuCRM": "133050",
+                        "nuMatInss": 920596
+                    },
+                    "origemCadastro": 0
+                },
+                {
+                    "dtRealizExame": 1326765600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 2,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO.",
+                    "dsExameFisico": "LOTE, HIPOCORADO +/4+, EUPNEICO E EM BOM ESTADO GERAL.\r\nDEAMBULA COM LENTIDÃO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.",
+                    "dsConsideracoes": "SEGURADO EM POS OPERATORIO DE PAF ABDOMINAL. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1330484400000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "SIM",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "MANOEL CORDEIRO DE LIMA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1329357600000,
+                    "cdRequerimento": 137459732,
+                    "cdBeneficio": 5495121712,
+                    "cdLaudo": 3,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "T01 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "AX1 DE SEGURADO, 28 ANOS, CARTEIRA ASSINADA COMO OP. CARREGADEIRA, SEM BI OU RI ANTERIOR NO SISTEMA. DAT EM 16/12/2011. RELATA PAF DE ABDOME E TRATAMENTO CIRURGICO.\r\nDMA DO HOSPITAL DE SARACURUNA, ASSINADO PELO DR. ADAIR ROGERIO VIEIRA DA SILVA, CRM 5276978-9, DATADO DE 13/12/2011, RELATA ATENDIDO NO DIA 11/12/2011, PAF ABDOMINAL, CID T01 E POS OPERATORIO. \r\nPP EM 16/02/2012, SEGURADO RELATA DORES NA BARRIGA. HISTORIA DE CIRURGIA ABDOMINAL POR PAF EM 2012.\r\nDMA DR. EVERSON LACERDA ALVES, CRM 5254346-6, DATADO DE 15/02/2012, RELATA NO MOMENTO O PACIENTE APRESENTA DISTENSÃO ABDOMINAL NO LOCAL DA CIRURGIA, DORES ABDOMINAIS EM REGIÃO EPIGASTRICA, MESOGASTRICA E HIPOGASTRICA DEVIDO A CIRURGIA. IRA REALIZAR TC DE ABDOME NO DIA 27/02/2012.",
+                    "dsExameFisico": "LOTE, CORADO, EUPNEICO E EM BOM ESTADO GERAL.\r\nAINDA DEAMBULA COM CERTA LENTIDÃO.\r\nCICATRIZ CIRURGICA MEDIANA ABDOMINAL XIFOPUBIANA DE BOA EVOLUÇÃO.\r\nREFERE DOR DIFUSA A PALPAÇÃO PROFUNDA DA REGIÃO ABDOMINAL.\r\nABDOME FLACIDO.",
+                    "dsConsideracoes": "SEGURADO EM POS OPERATORIO DE PAF EM 12/2011, AINDA COM ALTERAÇÕES ABDOMINAIS AO EXAME FISICO. EXISTE INCAPACIDADE LABORATIVA, NO MOMENTO.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1323568800000,
+                    "dtInicioIncapacidadeDII": 1323568800000,
+                    "dtCessacaoBeneficio": 1333162800000,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "MANOEL CORDEIRO DE LIMA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Andre Inacio Sousa da Silva",
+                        "nuCRM": "645273",
+                        "nuMatInss": 1540210
+                    },
+                    "origemCadastro": 1
+                },
+                {
+                    "dtRealizExame": 1629342000000,
+                    "cdRequerimento": 209005036,
+                    "cdBeneficio": 6354477314,
+                    "cdLaudo": 4,
+                    "cdOrdem": 0,
+                    "cdProtocolo": "F41 ",
+                    "dsProtocolo": null,
+                    "dsHistoria": "REQUERENTE COM RELATO DE SER PORTADOR DE DOENCA SOB CID10 F41.EM 19/07/2019.",
+                    "dsExameFisico": "Parecer em Documentação Médica, em atendimento ao art. 6º da Lei nº 14.131, de 30 de março de 2021, e art. 4º da Portaria Conjunta SEPRT/ME/INSS nº 32, de 31 de março de 2021.",
+                    "dsConsideracoes": "Lei nº 14.131, de 30 de março de 2021 e Portaria Conjunta SEPRT/ME/INSS nº 32, de 31 de março de 2021.",
+                    "dsJustNTEP": null,
+                    "dsResultadoIncapacidade": "Não existe incapacidade laborativa.",
+                    "dtInicioDoencaDID": 1563505200000,
+                    "dtInicioIncapacidadeDII": null,
+                    "dtCessacaoBeneficio": null,
+                    "dsAcidenteTrabalho": "NÃO",
+                    "dsInvalidez": "NÃO",
+                    "dsIsencaoCarencia": "NÃO",
+                    "dsAuxilioAcidente": null,
+                    "dsRP": "NÃO",
+                    "requerimentoSABITO": {
+                        "requerenteSABITO": {
+                            "nmRequerente": "MANOEL CORDEIRO DE LIMA",
+                            "dtNascimento": 437108400000,
+                            "sexo": "Masculino",
+                            "nuIdentidade": "211854294",
+                            "ocupacao": null
+                        },
+                        "beneficioSABITO": {
+                            "dsBeneficio": "Auxílio - Doença"
+                        }
+                    },
+                    "medicoSABITO": {
+                        "nmMedico": "Luiziane Camara Cutrim",
+                        "nuCRM": "555",
+                        "nuMatInss": 1500935
+                    },
+                    "origemCadastro": 12
+                }
+            ],
+            "mensagemTO": null
+        }
+    },
+    "dossieMedicoPDF": {
+
+    }
+
+}
